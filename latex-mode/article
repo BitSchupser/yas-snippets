@@ -1,0 +1,21 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Article
+# key: article
+# contributor: Alexander Rampp
+# --
+\\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\\usepackage[T1]{fontenc}
+\\usepackage[utf8]{inputenc}
+\\usepackage[pdftex]{graphicx}
+\\usepackage{mdwlist}
+\\usepackage[official]{eurosym}
+\\title{$1}
+\\author{$2}
+\\date{$3}
+
+\\begin{document}
+\\maketitle
+
+$0
+
+\\end{document}
